@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl
+END
+GenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/GenericDao.java
+END
+ClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/gestion-de-stocks/!svn/ver/14/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/ClientDao.java
+END
+LigneDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/LigneDao.java
+END
+EntrepotDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/EntrepotDao.java
+END
+ServiceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/ServiceDao.java
+END
+ContinentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/ContinentDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/RoleDao.java
+END
+CommandeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/CommandeDao.java
+END
+StockDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/StockDao.java
+END
+ProduitDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/ProduitDao.java
+END
+TitreDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/TitreDao.java
+END
+EmployeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/gestion-de-stocks/!svn/ver/14/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/impl/EmployeDao.java
+END

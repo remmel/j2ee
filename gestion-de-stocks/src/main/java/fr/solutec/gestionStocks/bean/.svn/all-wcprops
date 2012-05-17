@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gestion-de-stocks/!svn/ver/17/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean
+END
+Entrepot.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gestion-de-stocks/!svn/ver/28/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Entrepot.java
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Service.java
+END
+Continent.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Continent.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Role.java
+END
+Commande.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gestion-de-stocks/!svn/ver/28/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Commande.java
+END
+Stock.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Stock.java
+END
+Produit.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/gestion-de-stocks/!svn/ver/28/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Produit.java
+END
+Titre.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Titre.java
+END
+GenericId.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/GenericId.java
+END
+Employe.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Employe.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Client.java
+END
+Ligne.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/bean/Ligne.java
+END

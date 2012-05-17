@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gestion-de-stocks/!svn/ver/17/trunk/gestion-de-stocks/src/main/webapp/WEB-INF
+END
+tiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gestion-de-stocks/!svn/ver/21/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/tiles.xml
+END
+applicationContext-db.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/applicationContext-db.xml
+END
+applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/applicationContext-security.xml
+END
+views.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gestion-de-stocks/!svn/ver/20/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/views.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/web.xml
+END
+gestion-stocks-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/gestion-de-stocks/!svn/ver/26/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/gestion-stocks-servlet.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/webapp/WEB-INF/log4j.xml
+END

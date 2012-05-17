@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="dataSource" 
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@192.168.12.98:1521:ORCL" />
+		<property name="username" value="achankimponne" />
+		<property name="password" value="achankimponne" />
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="annotatedClasses">
+			<list>
+				<value>fr.solutec.gestionStocks.bean.Titre</value>
+				<value>fr.solutec.gestionStocks.bean.Employe</value>
+				<value>fr.solutec.gestionStocks.bean.Service</value>
+				<value>fr.solutec.gestionStocks.bean.Continent</value>
+				<value>fr.solutec.gestionStocks.bean.Client</value>
+				<value>fr.solutec.gestionStocks.bean.Role</value>
+				<value>fr.solutec.gestionStocks.bean.Commande</value>
+				<value>fr.solutec.gestionStocks.bean.Stock</value>
+				<value>fr.solutec.gestionStocks.bean.Ligne</value>
+				<value>fr.solutec.gestionStocks.bean.Entrepot</value>
+				<value>fr.solutec.gestionStocks.bean.Produit</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.connection.release_mode">auto</prop>
+				<prop key="hibernate.bytecode.provider">javassist</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+			</props>
+		</property>
+
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+
+
+</beans>

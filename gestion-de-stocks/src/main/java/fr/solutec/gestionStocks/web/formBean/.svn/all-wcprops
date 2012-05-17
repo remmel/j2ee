@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean
+END
+ProduitFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/gestion-de-stocks/!svn/ver/17/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/ProduitFormBean.java
+END
+ModificationMotDePasseFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/gestion-de-stocks/!svn/ver/17/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/ModificationMotDePasseFormBean.java
+END
+EmployeFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/EmployeFormBean.java
+END
+ServiceEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/ServiceEditor.java
+END
+ClientFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/ClientFormBean.java
+END
+LigneFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/LigneFormBean.java
+END
+ServiceFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/ServiceFormBean.java
+END
+RoleFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/RoleFormBean.java
+END
+CommandeFormBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/web/formBean/CommandeFormBean.java
+END

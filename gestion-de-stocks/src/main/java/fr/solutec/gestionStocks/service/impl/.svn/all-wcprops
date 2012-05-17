@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl
+END
+ProduitManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/ProduitManager.java
+END
+TitreManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/TitreManager.java
+END
+EmployeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/gestion-de-stocks/!svn/ver/28/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/EmployeManager.java
+END
+AuthentificationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/gestion-de-stocks/!svn/ver/12/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/AuthentificationManager.java
+END
+ClientManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/ClientManager.java
+END
+LigneManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/LigneManager.java
+END
+EntrepotManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/EntrepotManager.java
+END
+ServiceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/ServiceManager.java
+END
+ContinentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/ContinentManager.java
+END
+RoleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/RoleManager.java
+END
+CommandeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/gestion-de-stocks/!svn/ver/25/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/CommandeManager.java
+END
+StockManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/service/impl/StockManager.java
+END

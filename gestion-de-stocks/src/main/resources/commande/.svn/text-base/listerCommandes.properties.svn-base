@@ -1,0 +1,10 @@
+listerCommandes.titre.label=Liste des commandes
+
+
+
+listerCommandes.dtCommande.table.label=date de la commande
+listerCommandes.dtLivraison.table.label=date de livraison
+listerCommandes.total.table.label=total
+listerCommandes.ntPaiement.table.label=moyen de paiement
+listerCommandes.validite.table.label=validité
+listerCommandes.action.table.label=action

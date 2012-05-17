@@ -1,0 +1,11 @@
+nom.required=le nom du produit est obligatoire
+
+produit.notfoundError=Le produit n'a pas été trouvé.
+produit.saveDone=Le produit a bien été sauvegardé.
+
+editerProduit.titre.label=Edition d'un produit
+editerProduit.creation.titre.label=Création d'un produit
+editerProduit.nom.field.label=nom : 
+editerProduit.description.field.label=description : 
+editerProduit.prixConseille.field.label=prix : 
+

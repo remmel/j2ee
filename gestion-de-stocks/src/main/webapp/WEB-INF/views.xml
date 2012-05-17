@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="AccueilPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="accueil" />
+	</bean>
+
+
+<bean id="ListProduitsPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="listProduitsPage" />
+	</bean>
+
+	<bean id="ListEmployesPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="listEmployesPage" />
+	</bean>
+
+	<!-- <bean id="ListEmployesPage" class="org.springframework.web.servlet.view.JstlView"> 
+		<property name="url" value="/WEB-INF/pages/employe/ListEmployesPage.jsp" 
+		/> </bean> -->
+
+	<bean id="ListClientsPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="listClientsPage" />
+	</bean>
+
+	<bean id="ListCommandesPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="listCommandesPage" />
+	</bean>
+
+
+	<bean id="EditEmployePage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="editEmployePage" />
+	</bean>
+
+	<bean id="EditClientPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="editClientPage" />
+	</bean>
+
+	<bean id="EditCommandePage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="editCommandePage" />
+	</bean>
+
+	<bean id="EditProduitPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="editProduitPage" />
+	</bean>
+	
+	<bean id="ErrorPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="errorPage" />
+	</bean>
+
+	<bean id="LoginPage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="loginPage" />
+	</bean>
+
+	<bean id="AccessDeniedPage" class="org.springframework.web.servlet.view.JstlView">
+		<property name="url" value="/WEB-INF/pages/login/AccessDeniedPage.jsp" />
+	</bean>
+
+	<bean id="EditMotDePassePage" class="org.springframework.web.servlet.view.tiles2.TilesView">
+		<property name="url" value="editMotDePassePage" />
+	</bean>
+</beans>

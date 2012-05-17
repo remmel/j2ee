@@ -1,0 +1,157 @@
+package fr.solutec.gestionStocks.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+import fr.solutec.gestionStocks.bean.Client;
+import fr.solutec.gestionStocks.bean.Commande;
+import fr.solutec.gestionStocks.bean.Ligne;
+import fr.solutec.gestionStocks.dao.IClientDao;
+import fr.solutec.gestionStocks.dao.ICommandeDao;
+import fr.solutec.gestionStocks.dao.ILigneDao;
+import fr.solutec.gestionStocks.service.ICommandeManager;
+
+/**
+ * @author achankimponne
+ * 
+ */
+@Service
+public class CommandeManager implements ICommandeManager {
+
+	@Autowired
+	@Qualifier("commandeDao")
+	private ICommandeDao commandeDao;
+
+	@Autowired
+	@Qualifier("clientDao")
+	private IClientDao clientDao;
+
+	@Autowired
+	@Qualifier("ligneDao")
+	private ILigneDao ligneDao;
+
+	public ICommandeDao getCommandeDao() {
+		return commandeDao;
+	}
+
+	public void setCommandeDao(ICommandeDao commandeDao) {
+		this.commandeDao = commandeDao;
+	}
+
+	public IClientDao getClientDao() {
+		return clientDao;
+	}
+
+	public void setClientDao(IClientDao clientDao) {
+		this.clientDao = clientDao;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * fr.solutec.gestionStocks.service.ICommandeManager#getCommandesByIdClient
+	 * (java.lang.Integer)
+	 */
+	//@Override
+	public List<Commande> getCommandesByIdClient(Integer id) {
+		Client client = clientDao.getById(id);
+		return commandeDao.getCommandeByClient(client);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * fr.solutec.gestionStocks.service.ICommandeManager#getCommandeById(java
+	 * .lang.Integer)
+	 */
+	//@Override
+	public Commande getCommandeById(Integer id) {
+		if (id != null) {
+			return this.getCommandeDao().getById(id);
+		}
+		return null;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see fr.solutec.gestionStocks.service.ICommandeManager#save(fr.solutec.
+	 * gestionStocks.bean.Commande)
+	 */
+	//@Override
+	public Commande save(Commande commande) {
+		if (commande != null) {
+			commande.setTotal(calculTotal(commande));
+
+			return this.getCommandeDao().save(commande);
+		}
+		return null;
+
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * fr.solutec.gestionStocks.service.ICommandeManager#calculTotal(fr.solutec
+	 * .gestionStocks.bean.Commande)
+	 */
+	//@Override
+	public Double calculTotal(Commande commande) {
+		if (commande != null) {
+			List<Ligne> lignes = getLigneDao().getLignesCommande(commande);
+			Double total = new Double(0);
+			if (lignes != null) {
+
+				for (Ligne ligne : lignes) {
+					total = total + ligne.getPrix();
+				}
+			}
+			return total;
+		}
+
+		return null;
+	}
+
+	/**
+	 * @return the ligneDao
+	 */
+	public ILigneDao getLigneDao() {
+		return ligneDao;
+	}
+
+	/**
+	 * @param ligneDao
+	 *            the ligneDao to set
+	 */
+	public void setLigneDao(ILigneDao ligneDao) {
+		this.ligneDao = ligneDao;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see fr.solutec.gestionStocks.service.ICommandeManager#delete(fr.solutec.
+	 * gestionStocks.bean.Commande)
+	 */
+	//@Override
+	public void delete(Commande commande) {
+		if (commande != null) {
+			List<Ligne> lignes = this.getLigneDao().getLignesCommande(commande);
+
+			if (lignes != null) {
+				for (Ligne ligne : lignes) {
+					this.getLigneDao().delete(ligne);
+				}
+			}
+
+			this.getCommandeDao().delete(commande);
+
+		}
+	}
+}

@@ -1,0 +1,12 @@
+<html>
+<body>
+	<ul>
+		<li><a
+			href="http://localhost:8080/gestion-stocks/employe/list.htm">http://localhost:8080/gestion-stocks/employe/list.htm</a>
+		</li>
+		<li><a
+			href="http://localhost:8080/gestion-stocks/client/list.htm">http://localhost:8080/gestion-stocks/client/list.html</a>
+		</li>
+	</ul>
+</body>
+</html>

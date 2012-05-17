@@ -1,0 +1,14 @@
+client.notfoundError=Le client n'a pas été trouvé.
+client.saveDone=Le client a bien été sauvegardé.
+
+editerClient.titre.label=Edition d'un client
+editerClient.creation.titre.label=Création d'un client
+editerClient.nom.field.label=nom : 
+editerClient.telephone.field.label=téléphone : 
+editerClient.adresse.field.label=adresse : 
+editerClient.ville.field.label=ville : 
+editerClient.departement.field.label=département : 
+editerClient.pays.field.label=pays : 
+editerClient.cpPostal.field.label=code postal : 
+editerClient.solvabilite.field.label=solvabilité : 
+editerClient.commentaires.field.label=commentaires : 

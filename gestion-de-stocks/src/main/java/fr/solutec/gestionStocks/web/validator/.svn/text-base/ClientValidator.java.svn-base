@@ -1,0 +1,33 @@
+package fr.solutec.gestionStocks.web.validator;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
+
+import fr.solutec.gestionStocks.web.formBean.ClientFormBean;
+
+@Component
+public class ClientValidator implements Validator {
+	
+	/**
+	 * Logger
+	 */
+	private static final Logger log = Logger.getLogger(ClientValidator.class);
+
+	@Override
+	public boolean supports(Class<?> c) {
+		return ClientFormBean.class.equals(c);
+	}
+
+	@Override
+	public void validate(Object o, Errors e) {
+		
+		ClientFormBean clientForm= (ClientFormBean)o;
+		
+		if (log.isDebugEnabled()) {
+			log.debug("clientForm: " + clientForm);
+		}
+	}
+
+}

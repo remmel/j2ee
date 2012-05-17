@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao
+END
+ICommandeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/ICommandeDao.java
+END
+IStockDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IStockDao.java
+END
+IProduitDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IProduitDao.java
+END
+ITitreDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/ITitreDao.java
+END
+IEmployeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IEmployeDao.java
+END
+IGenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IGenericDao.java
+END
+IClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gestion-de-stocks/!svn/ver/7/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IClientDao.java
+END
+ILigneDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gestion-de-stocks/!svn/ver/15/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/ILigneDao.java
+END
+IEntrepotDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IEntrepotDao.java
+END
+IServiceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IServiceDao.java
+END
+IContinentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/gestion-de-stocks/!svn/ver/3/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IContinentDao.java
+END
+IRoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/gestion-de-stocks/!svn/ver/13/trunk/gestion-de-stocks/src/main/java/fr/solutec/gestionStocks/dao/IRoleDao.java
+END

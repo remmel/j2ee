@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/WEB-INF/pages/base/baseLayout.jsp">
+		<put-attribute name="title" value="Template" />
+		<put-attribute name="header" value="/WEB-INF/pages/header/header.jsp" />
+
+		<put-attribute name="menu" value="/WEB-INF/pages/menu/menu.jsp" />
+
+		<put-attribute name="statut" value="/WEB-INF/pages/statut/statut.jsp" />
+	</definition>
+
+	<definition name="accueil" extends="baseLayout">
+		<put-attribute name="title" value="Accueil" />
+		<put-attribute name="body" value="/WEB-INF/pages/accueil/accueil.jsp" />
+	</definition>
+
+	<definition name="listEmployesPage" extends="baseLayout">
+		<put-attribute name="title" value="liste des employés" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/employe/ListEmployesPage.jsp" />
+	</definition>
+
+	<definition name="editEmployePage" extends="baseLayout">
+		<put-attribute name="title" value="édition de l'employé" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/employe/EditEmployePage.jsp" />
+	</definition>
+
+	<definition name="listClientsPage" extends="baseLayout">
+		<put-attribute name="title" value="liste des clients" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/client/ListClientsPage.jsp" />
+	</definition>
+
+	<definition name="editClientPage" extends="baseLayout">
+		<put-attribute name="title" value="édition du client" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/client/EditClientPage.jsp" />
+	</definition>
+
+
+	<definition name="listCommandesPage" extends="baseLayout">
+		<put-attribute name="title" value="liste des commandes" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/commande/ListCommandesPage.jsp" />
+	</definition>
+
+	<definition name="editCommandePage" extends="baseLayout">
+		<put-attribute name="title" value="édition du client" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/commande/EditCommandePage.jsp" />
+	</definition>
+
+	<definition name="listProduitsPage" extends="baseLayout">
+		<put-attribute name="title" value="liste des produits" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/produit/ListProduitsPage.jsp" />
+	</definition>
+
+	<definition name="editProduitPage" extends="baseLayout">
+		<put-attribute name="title" value="édition d'un produit" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/produit/EditProduitPage.jsp" />
+	</definition>
+
+
+
+
+	<definition name="loginPage" extends="baseLayout">
+		<put-attribute name="title" value="Authentification" />
+		<put-attribute name="body" value="/WEB-INF/pages/login/LoginPage.jsp" />
+	</definition>
+
+	<definition name="errorPage" extends="baseLayout">
+		<put-attribute name="title" value="Erreur" />
+		<put-attribute name="body" value="/WEB-INF/pages/error/ErrorPage.jsp" />
+	</definition>
+
+	<definition name="editMotDePassePage" extends="baseLayout">
+		<put-attribute name="title" value="modification du mot de passe" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/motdepasse/EditMotDePasseEmployePage.jsp" />
+	</definition>
+
+</tiles-definitions>

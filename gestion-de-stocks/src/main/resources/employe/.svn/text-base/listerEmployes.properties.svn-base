@@ -1,0 +1,14 @@
+listerEmployes.titre.label=Liste des employés
+listerEmployes.service.titre.label=service :
+
+listerEmployes.civilite.table.label=civilité
+listerEmployes.nom.table.label=nom
+listerEmployes.prenom.table.label=prénom
+listerEmployes.utilisateur.table.label=utilisateur
+listerEmployes.service.table.label=service
+listerEmployes.dtEntree.table.label=date d'entrée
+listerEmployes.commentaires.table.label=commentaires 
+listerEmployes.salaire.table.label=salaire 
+listerEmployes.commision.table.label=commission (%) 
+listerEmployes.roles.table.label=roles
+listerEmployes.action.table.label=action
